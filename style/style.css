@@ -3,13 +3,13 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
 
     background-image: url(../img/silencio.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     color: #000000;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -17,55 +17,57 @@ body{
     line-height: 1.6;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     color: #bd0000;
 }
 
-h1{
+h1 {
     font-size: 38px;
     margin-bottom: 10px;
 }
 
-h2{
+h2 {
     font-size: 25px;
     background-color: #009311;
     border-radius: 10px;
     margin: 50px;
 }
 
-h3{
+h3 {
     font-size: 20px;
 }
 
 
 
 
-.container{
+.container {
     width: 90%;
     max-width: 1000px;
 
     margin: 0 auto;
 }
 
-.container-dois{
+.container-dois {
     width: 100%;
     max-width: 1000px;
 
     margin: 0 auto;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: #720000;
     color: white;
 
     padding: 30px 0;
 }
 
-.cabecalho h1{
+.cabecalho h1 {
     color: rgb(0, 135, 20);
 }
 
-.etiqueta{
+.etiqueta {
     margin-bottom: 5px;
 
     color: #e5ff00;
@@ -75,26 +77,26 @@ h3{
     letter-spacing: 2px;
 }
 
-.subtitulo{
+.subtitulo {
     max-width: 700px;
 }
 
 
-.menu-lista{
+.menu-lista {
     margin: 20px 0 0;
     padding: 0;
 
     list-style: none;
 }
 
-.menu-lista li{
+.menu-lista li {
     display: inline-block;
 
     margin-right: 8px;
     margin-bottom: 8px;
 }
 
-.menu-link{
+.menu-link {
     display: inline-block;
 
     padding: 8px 12px;
@@ -107,11 +109,11 @@ h3{
     text-decoration: none;
 }
 
-.secao{
+.secao {
     padding: 72px 0;
 }
 
-.titulo-secao{
+.titulo-secao {
     margin-bottom: 32px;
     padding-left: 12px;
 
@@ -119,45 +121,75 @@ h3{
     border-radius: 5px;
 }
 
-.grade-cards{
+.grade-cards {
     display: grid;
     gap: 26px;
 }
-.card{
-    
+
+.card {
+
     padding: 24px;
     background-color: #009900;
     border-radius: 10px;
     box-shadow: 0 15px 30px rgb(205, 228, 0);
 }
-.container-dois ul li{
+
+.container-dois ul li {
     padding: 10px;
     width: 90%;
     max-width: 1000px;
 
     margin: 0 auto;
 }
-.container-dois h2{
+
+.container-dois h2 {
     font-size: 25px;
     background-color: #009311;
     border-radius: 10px;
     margin: 50px;
 }
 
-.rodape{
+.rodape {
     margin-top: 40px;
     padding: 25px;
     background-color: #750000;
 
     text-align: center;
 }
- 
-.rodape p{
+
+.rodape p {
     color: white;
 }
-.rodape a{
+
+.rodape a {
     color: #009311;
 }
-.rodape a:hover{
+
+.rodape a:hover {
     color: yellow;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(0, 159, 8);
+}
+
+th {
+    background-color: yellow;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+
+}
+table caption{
+    background-color: rgb(171, 0, 0);
+    border: #000000;
+    color: white;
 }
