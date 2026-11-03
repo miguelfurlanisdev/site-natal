@@ -1,0 +1,163 @@
+/* Individualmente em cada classe */
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+
+    background-image: url(../img/silencio.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: #000000;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2, h3{
+    color: #bd0000;
+}
+
+h1{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 25px;
+    background-color: #009311;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+
+
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+
+.container-dois{
+    width: 100%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+
+.cabecalho{
+    background-color: #720000;
+    color: white;
+
+    padding: 30px 0;
+}
+
+.cabecalho h1{
+    color: rgb(0, 135, 20);
+}
+
+.etiqueta{
+    margin-bottom: 5px;
+
+    color: #e5ff00;
+
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.subtitulo{
+    max-width: 700px;
+}
+
+
+.menu-lista{
+    margin: 20px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.menu-lista li{
+    display: inline-block;
+
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link{
+    display: inline-block;
+
+    padding: 8px 12px;
+
+    background-color: #048700;
+    color: #ffe600;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+.secao{
+    padding: 72px 0;
+}
+
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+
+    border-left: 5px solid #c3ff00;
+    border-radius: 5px;
+}
+
+.grade-cards{
+    display: grid;
+    gap: 26px;
+}
+.card{
+    
+    padding: 24px;
+    background-color: #009900;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgb(205, 228, 0);
+}
+.container-dois ul li{
+    padding: 10px;
+    width: 90%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+}
+.container-dois h2{
+    font-size: 25px;
+    background-color: #009311;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #750000;
+
+    text-align: center;
+}
+ 
+.rodape p{
+    color: white;
+}
+.rodape a{
+    color: #009311;
+}
+.rodape a:hover{
+    color: yellow;
+}
