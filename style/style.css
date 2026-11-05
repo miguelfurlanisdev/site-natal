@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Google+Sans+Flex:opsz,wght@1..144,1..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pinyon+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Google+Sans+Flex:opsz,wght@1..144,1..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pinyon+Script&family=Redaction+10:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dr+Sugiyama&family=Google+Sans+Flex:opsz,wght@1..144,1..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pinyon+Script&family=Redaction+10:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Individualmente em cada classe */
 * {
     box-sizing: border-box;
@@ -26,6 +35,8 @@ h3 {
 h1 {
     font-size: 38px;
     margin-bottom: 10px;
+    font-family: Pinyon Script;
+    
 }
 
 h2 {
@@ -33,10 +44,13 @@ h2 {
     background-color: #009311;
     border-radius: 10px;
     margin: 50px;
+    font-family: Redaction;
 }
 
 h3 {
     font-size: 20px;
+    font-family: Amatic SC;
+    font-size: 35px;
 }
 
 
@@ -68,13 +82,14 @@ h3 {
 }
 
 .etiqueta {
-    margin-bottom: 5px;
+    
 
     color: #e5ff00;
 
     font-size: 14px;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
+    font-family: Dr Sugiyama;
 }
 
 .subtitulo {
@@ -159,6 +174,9 @@ h3 {
 
 .rodape p {
     color: white;
+    font-family: Dr Sugiyama;
+    font-size: 30px;
+    letter-spacing: 4px;
 }
 
 .rodape a {
@@ -195,11 +213,11 @@ table caption{
 }
 
 form{
-    background-color: hsl(127, 100%, 63%);
+    background-color: hsl(127, 100%, 42%);
     margin: 10px;
     width: 100%;
     color: #bd0000;
 }
 form textarea{
-    background-color: rgba(255, 112, 112, 0.834);
+    background-color: rgba(255, 59, 59, 0.834);
 }
